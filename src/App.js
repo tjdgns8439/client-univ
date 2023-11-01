@@ -17,6 +17,7 @@ function App() {
         setDisplayedAuthor(author)
       });
   }, []);
+  
 
   const handleSubmit = e => {
     e.preventDefault();
